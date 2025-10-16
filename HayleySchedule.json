@@ -1,0 +1,72 @@
+[
+    {
+        "className": "English 4",
+        "teacher": "Mrs. Weksler",
+        "roomNumber": "E100",
+        "period": "1",
+        "subjectArea": "ELA"
+    },
+    {
+        "className": "Honors NJIT IS219 Advanced Website Development WDP",
+        "teacher": "Mr. Kilgore",
+        "roomNumber": "B111",
+        "period": "2",
+        "subjectArea": "Computer Science"
+    },
+    {
+        "className": "Physical Education 12",
+        "teacher": "Ms. Preston",
+        "roomNumber": "Gym",
+        "period": "3 Q1 Q3 Q4",
+        "subjectArea": "Gym and Health"
+    },
+    {
+        "className": "Health 12",
+        "teacher": "Mrs. Preston",
+        "roomNumber": "C130",
+        "period": "3 Q2",
+        "subjectArea": "Gym and Health"
+    },
+    {
+        "className": "Video Editing & Media Prod 1",
+        "teacher": "Mr. Werntz",
+        "roomNumber": "B106",
+        "period": "4",
+        "subjectArea": "Video and Digital Design"
+    },
+    {
+        "className": "Statistics",
+        "teacher": "Ms. Altilio",
+        "roomNumber": "A213",
+        "period": "5",
+        "subjectArea": "Math"
+    },
+    {
+        "className": "Digital Media and Photo Design 2",
+        "teacher": "Mrs. Russo",
+        "roomNumber": "B106",
+        "period": "6",
+        "subjectArea": "Video and Digital Design"
+    },
+    {
+        "className": "Physical Education",
+        "teacher": "Mr. Sinisky",
+        "roomNumber": "Gym",
+        "period": "6 Q2 Q3 Q4",
+        "subjectArea": "PE and Sports"
+    },
+    {
+        "className": "Financial Literacy",
+        "teacher": "Mr. Morgan",
+        "roomNumber": "A132",
+        "period": "7 S1",
+        "subjectArea": "Marketing and Finance"
+    },
+    {
+        "className": "Popular Music 2",
+        "teacher": "Mr. Ippolito",
+        "roomNumber": "C103",
+        "period": "7 S2",
+        "subjectArea": "Music and Creative Arts"
+    }
+]
