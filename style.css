@@ -1,8 +1,9 @@
     body {
         background-image: url('https://www.textures4photoshop.com/tex/thumbs/matrix-code-animation-gif-free-animated-background-716.gif');
         background-size: cover;
-        background-position: center;
         background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center;
         color: white;
     }
 
