@@ -13,10 +13,7 @@
     <link href="style.css" rel="stylesheet" />
 </head>
 
-<body>
-    <header class="">
-
-    </header>
+<body class="body">
 
     <main class="container my-5">
 
@@ -29,9 +26,10 @@
             <tbody id="tableBody"></tbody>
         </table>
 
+
         <!-- 🔍 Search bar below the table -->
         <div class="mt-4">
-            <label for="searchName" class="form-label">Search Student Name:</label>
+            <h5><label for="searchName" class="form-label">Search Student Name:</label></h5>
             <div class="input-group">
                 <input type="text" id="searchName" class="form-control" placeholder="e.g., Cooper">
                 <button onclick="loadScheduleFromSearch()" class="btn btn-secondary">Search</button>

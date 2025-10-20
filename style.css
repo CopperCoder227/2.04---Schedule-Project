@@ -1,3 +1,11 @@
+    body {
+        background-image: url('https://www.textures4photoshop.com/tex/thumbs/matrix-code-animation-gif-free-animated-background-716.gif');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        color: white;
+    }
+
     table {
         width: 100%;
         border-collapse: collapse;
@@ -11,5 +19,37 @@
     }
 
     th {
-        background-color: #f4f4f4;
+        background-color: #f4f4f4 !important;
+    }
+
+    .class-color-0 {
+        background-color: #ffd6d6 !important;
+    }
+
+    .class-color-1 {
+        background-color: #ffe6cc !important;
+    }
+
+    .class-color-2 {
+        background-color: #ffffcc !important;
+    }
+
+    .class-color-3 {
+        background-color: #d6f5d6 !important;
+    }
+
+    .class-color-4 {
+        background-color: #d6f0ff !important;
+    }
+
+    .class-color-5 {
+        background-color: #e6ccff !important;
+    }
+
+    .class-color-6 {
+        background-color: #f9d6ff !important;
+    }
+
+    .class-color-7 {
+        background-color: #cccccc !important;
     }

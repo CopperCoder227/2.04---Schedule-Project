@@ -31,7 +31,15 @@ async function start(fileName) {
          headers.forEach(header => {
             const td = document.createElement('td');
             td.textContent = row[header];
+
+            // Apply color class only to the className column
+            if (header === 'className') {
+               const colorClass = getColorClassForClassName(row[header]);
+               td.classList.add(colorClass);
+            }
+
             tr.appendChild(td);
+
          });
          tableBody.appendChild(tr);
       });
@@ -71,3 +79,18 @@ document.addEventListener("DOMContentLoaded", () => {
       }
    });
 });
+
+// Color mapping based on className - Ai was used to help, i didnt know ow else to add for js
+const classColorMap = {};
+let colorIndex = 0;
+
+// Total available color classes defined in CSS
+const totalColors = 8;
+
+function getColorClassForClassName(className) {
+   if (!classColorMap[className]) {
+      classColorMap[className] = `class-color-${colorIndex % totalColors}`;
+      colorIndex++;
+   }
+   return classColorMap[className];
+}
